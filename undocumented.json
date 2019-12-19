@@ -1,0 +1,390 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 5,
+      "symbol": "QPEvent",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 7,
+      "symbol": "QPEvent.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 9,
+      "symbol": "QPEvent.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 17,
+      "symbol": "QPEngineStarted.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 23,
+      "symbol": "QPEngineStarted.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 32,
+      "symbol": "QPConnectivityChangedEvent.connected",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 34,
+      "symbol": "QPConnectivityChangedEvent.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 40,
+      "symbol": "QPConnectivityChangedEvent.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 49,
+      "symbol": "QPLocationUpdatedEvent.currentLocation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 50,
+      "symbol": "QPLocationUpdatedEvent.currentBearing",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 52,
+      "symbol": "QPLocationUpdatedEvent.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 58,
+      "symbol": "QPLocationUpdatedEvent.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 67,
+      "symbol": "QPEnteredVSignEvent.signal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 69,
+      "symbol": "QPEnteredVSignEvent.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 75,
+      "symbol": "QPEnteredVSignEvent.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 84,
+      "symbol": "QPNotifiedVSignEvent.signal",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 85,
+      "symbol": "QPNotifiedVSignEvent.datetime",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 86,
+      "symbol": "QPNotifiedVSignEvent.currentLocation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 88,
+      "symbol": "QPNotifiedVSignEvent.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 94,
+      "symbol": "QPNotifiedVSignEvent.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 103,
+      "symbol": "QPVSignsFetchedEvent.signals",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 104,
+      "symbol": "QPVSignsFetchedEvent.newSignals",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 105,
+      "symbol": "QPVSignsFetchedEvent.atCoordinates",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 106,
+      "symbol": "QPVSignsFetchedEvent.forced",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 108,
+      "symbol": "QPVSignsFetchedEvent.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 114,
+      "symbol": "QPVSignsFetchedEvent.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 124,
+      "symbol": "QPExitedApiCoverageRegionEvent.region",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 126,
+      "symbol": "QPExitedApiCoverageRegionEvent.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 132,
+      "symbol": "QPExitedApiCoverageRegionEvent.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 142,
+      "symbol": "QPResetVSignStatus.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 148,
+      "symbol": "QPResetVSignStatus.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 158,
+      "symbol": "QPGPSUpdatesPaused.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Events.swift",
+      "line": 164,
+      "symbol": "QPGPSUpdatesPaused.secondaryDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/GeoUtils.swift",
+      "line": 4,
+      "symbol": "VSignScanResults",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Protocols/QPManagerDelegate.swift",
+      "line": 13,
+      "symbol": "QPManagerDelegate",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/Protocols/QPManagerDelegate.swift",
+      "line": 15,
+      "symbol": "QPManagerDelegate.qpManager(event:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPEngine.swift",
+      "line": 48,
+      "symbol": "QPEngine.locationManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPEngine.swift",
+      "line": 58,
+      "symbol": "QPEngine.latestKnownLocation",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPEngine.swift",
+      "line": 68,
+      "symbol": "QPEngine.delegate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPEngine.swift",
+      "line": 71,
+      "symbol": "QPEngine.metricsManager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPEngine.swift",
+      "line": 554,
+      "symbol": "QPEngine.userNotificationCenter(_:willPresent:withCompletionHandler:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPEngine.swift",
+      "line": 564,
+      "symbol": "QPEngine.trackAnalyticsEvent(_:props:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 6,
+      "symbol": "QPLangCode",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 7,
+      "symbol": "QPLangCode.it",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 8,
+      "symbol": "QPLangCode.gb",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 9,
+      "symbol": "QPLangCode.fr",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 10,
+      "symbol": "QPLangCode.de",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 23,
+      "symbol": "QPApiDomain",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 24,
+      "symbol": "QPApiDomain.quandopasso",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 25,
+      "symbol": "QPApiDomain.viasuisse",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 26,
+      "symbol": "QPApiDomain.aecom",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 39,
+      "symbol": "QPSettings",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 43,
+      "symbol": "QPSettings.buildNumber",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 181,
+      "symbol": "QPSettings.engine",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib/QuandoPassoLib/QPSettings.swift",
+      "line": 183,
+      "symbol": "QPSettings.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/fabio/Code/fabio/quandopasso/QuandoPassoLib"
+}

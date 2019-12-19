@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QPSettings Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/QPSettings" class="dashAnchor"></a>
+
+    <a title="QPSettings Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           1.0 Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QPSettings Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../usage.html">Usage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MetricsManager.html">MetricsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QPEngine.html">QPEngine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QPSettings.html">QPSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QPSignal.html">QPSignal</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QPSignalMessage.html">QPSignalMessage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QPApiDomain.html">QPApiDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QPLangCode.html">QPLangCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CLLocationCoordinate2D.html">CLLocationCoordinate2D</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QPEvent.html">QPEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QPManagerDelegate.html">QPManagerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPConnectivityChangedEvent.html">QPConnectivityChangedEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPEngineStarted.html">QPEngineStarted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPEnteredVSignEvent.html">QPEnteredVSignEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPExitedApiCoverageRegionEvent.html">QPExitedApiCoverageRegionEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPGPSUpdatesPaused.html">QPGPSUpdatesPaused</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPLocationUpdatedEvent.html">QPLocationUpdatedEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPNotifiedVSignEvent.html">QPNotifiedVSignEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPResetVSignStatus.html">QPResetVSignStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPVSignsFetchedEvent.html">QPVSignsFetchedEvent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:14QuandoPassoLib16VSignScanResultsa">VSignScanResults</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>QPSettings</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">QPSettings</span> <span class="p">:</span> <span class="kt">Glossy</span></code></pre>
+
+                </div>
+              </div>
+            
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC11buildNumberSivp"></a>
+                    <a name="//apple_ref/swift/Property/buildNumber" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC11buildNumberSivp">buildNumber</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">buildNumber</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC18enableTextToSpeechSbvp"></a>
+                    <a name="//apple_ref/swift/Property/enableTextToSpeech" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC18enableTextToSpeechSbvp">enableTextToSpeech</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls if vsign messages are read by the TTS service</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">enableTextToSpeech</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC10apiBaseUrlSSvp"></a>
+                    <a name="//apple_ref/swift/Property/apiBaseUrl" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC10apiBaseUrlSSvp">apiBaseUrl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Base API url</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">apiBaseUrl</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC9apiDomainAA05QPApiF0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/apiDomain" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC9apiDomainAA05QPApiF0Ovp">apiDomain</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Default API domain</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">apiDomain</span><span class="p">:</span> <span class="kt"><a href="../Enums/QPApiDomain.html">QPApiDomain</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC15apiPollIntervalSivp"></a>
+                    <a name="//apple_ref/swift/Property/apiPollInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC15apiPollIntervalSivp">apiPollInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls how often (in seconds) we poll the API for new vSigns
+Note that apart from polling, vsigns are fetched when the coverage geofence is exited.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">apiPollInterval</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC17apiCoverageRadiusSivp"></a>
+                    <a name="//apple_ref/swift/Property/apiCoverageRadius" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC17apiCoverageRadiusSivp">apiCoverageRadius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Value (in meters) passed to the API as the vsign coverage radius. A value of <code>1000</code> would
+ask the API to give us all vsigns in the given radius.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">apiCoverageRadius</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC23bearingToleranceDegreesSivp"></a>
+                    <a name="//apple_ref/swift/Property/bearingToleranceDegrees" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC23bearingToleranceDegreesSivp">bearingToleranceDegrees</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Value in degrees controlling the tolerance for the angle used to detect the entering direction for a vsign</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bearingToleranceDegrees</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC19enableBearingChecksSbvp"></a>
+                    <a name="//apple_ref/swift/Property/enableBearingChecks" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC19enableBearingChecksSbvp">enableBearingChecks</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls if the entering angle should be used when detecting if a visgin is being entered</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">enableBearingChecks</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC24gpsLocationMaxAgeSecondsSivp"></a>
+                    <a name="//apple_ref/swift/Property/gpsLocationMaxAgeSeconds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC24gpsLocationMaxAgeSecondsSivp">gpsLocationMaxAgeSeconds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>GPS updates older than this value (in seconds) will be discarded as outdated.
+Useful to discard out of date locations when the GPS doesn&rsquo;t work properly.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gpsLocationMaxAgeSeconds</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC32gpsLocationMinHorizontalAccuracySivp"></a>
+                    <a name="//apple_ref/swift/Property/gpsLocationMinHorizontalAccuracy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC32gpsLocationMinHorizontalAccuracySivp">gpsLocationMinHorizontalAccuracy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>GPS updates that fall outside of this accurancy range (in meters) will be discarded as too inaccurate to be used.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gpsLocationMinHorizontalAccuracy</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC22notifiedTimeoutSecondsSivp"></a>
+                    <a name="//apple_ref/swift/Property/notifiedTimeoutSeconds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC22notifiedTimeoutSecondsSivp">notifiedTimeoutSeconds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notified vSigns will be re-notified again once re-entered if the previous notification is older than
+this value (in seconds)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">notifiedTimeoutSeconds</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC27notifiedMinDistanceInMetersSdvp"></a>
+                    <a name="//apple_ref/swift/Property/notifiedMinDistanceInMeters" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC27notifiedMinDistanceInMetersSdvp">notifiedMinDistanceInMeters</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notified vSigns will be re-notified again once re-entered if the user has reached this min distance (in meters)
+from the vsign area.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">notifiedMinDistanceInMeters</span><span class="p">:</span> <span class="kt">Double</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC9ttsVolumeSfvp"></a>
+                    <a name="//apple_ref/swift/Property/ttsVolume" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC9ttsVolumeSfvp">ttsVolume</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Volume for the TTS messages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ttsVolume</span><span class="p">:</span> <span class="kt">Float</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC8languageAA10QPLangCodeOSgvp"></a>
+                    <a name="//apple_ref/swift/Property/language" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC8languageAA10QPLangCodeOSgvp">language</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Language used to display and read vsign messages</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">language</span><span class="p">:</span> <span class="kt"><a href="../Enums/QPLangCode.html">QPLangCode</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC19syncMetricsIntervalSivp"></a>
+                    <a name="//apple_ref/swift/Property/syncMetricsInterval" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC19syncMetricsIntervalSivp">syncMetricsInterval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls how often buffered metrics are sent to the API</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">syncMetricsInterval</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC18gpsDefaultAccuracySdvp"></a>
+                    <a name="//apple_ref/swift/Property/gpsDefaultAccuracy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC18gpsDefaultAccuracySdvp">gpsDefaultAccuracy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls how often buffered metrics are sent to the API</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gpsDefaultAccuracy</span><span class="p">:</span> <span class="kt">CLLocationAccuracy</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC37gpsPausesLocationUpdatesAutomaticallySbvp"></a>
+                    <a name="//apple_ref/swift/Property/gpsPausesLocationUpdatesAutomatically" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC37gpsPausesLocationUpdatesAutomaticallySbvp">gpsPausesLocationUpdatesAutomatically</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Automatically pauses GPS updates if the system determines updates are not strictly requires
+(e.g. the user hasn&rsquo;t been moving for a while) to save battery.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gpsPausesLocationUpdatesAutomatically</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC17gpsDistanceFilterSivp"></a>
+                    <a name="//apple_ref/swift/Property/gpsDistanceFilter" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC17gpsDistanceFilterSivp">gpsDistanceFilter</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Controls how often GPS updates are required, based on the user movements.
+For example, setting this to <code>5</code> meters will make the system sends GPS update events
+only if the user moves outside of a 5 meter radius from their last position.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gpsDistanceFilter</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC4jsonACSgSDySSypG_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(json:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC4jsonACSgSDySSypG_tcfc">init(json:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialises settings from a serialised JSON data structure.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">json</span><span class="p">:</span> <span class="kt">JSON</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC6toJSONSDySSypGSgyF"></a>
+                    <a name="//apple_ref/swift/Method/toJSON()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC6toJSONSDySSypGSgyF">toJSON()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Serialises current settings values into JSON.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">toJSON</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">JSON</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC6engineAA8QPEngineCSgvp"></a>
+                    <a name="//apple_ref/swift/Property/engine" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC6engineAA8QPEngineCSgvp">engine</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">engine</span><span class="p">:</span> <span class="kt"><a href="../Classes/QPEngine.html">QPEngine</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsCACycfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsCACycfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC18saveToUserDefaultsyyF"></a>
+                    <a name="//apple_ref/swift/Method/saveToUserDefaults()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC18saveToUserDefaultsyyF">saveToUserDefaults()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stores current settings to System User Defaults</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">saveToUserDefaults</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib10QPSettingsC23restoreFromUserDefaultsACyFZ"></a>
+                    <a name="//apple_ref/swift/Method/restoreFromUserDefaults()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib10QPSettingsC23restoreFromUserDefaultsACyFZ">restoreFromUserDefaults()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Restores saved settings</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">restoreFromUserDefaults</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">QPSettings</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://www.quandopasso.com" target="_blank" rel="external">Quandopasso - Connected Driving &amp; Road Management System</a>. All rights reserved. (Last updated: 2019-12-19)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QPSignal Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/swift/Class/QPSignal" class="dashAnchor"></a>
+
+    <a title="QPSignal Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+           1.0 Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html"> Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      QPSignal Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../usage.html">Usage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/MetricsManager.html">MetricsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QPEngine.html">QPEngine</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QPSettings.html">QPSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QPSignal.html">QPSignal</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/QPSignalMessage.html">QPSignalMessage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QPApiDomain.html">QPApiDomain</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/QPLangCode.html">QPLangCode</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/CLLocationCoordinate2D.html">CLLocationCoordinate2D</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QPEvent.html">QPEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/QPManagerDelegate.html">QPManagerDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPConnectivityChangedEvent.html">QPConnectivityChangedEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPEngineStarted.html">QPEngineStarted</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPEnteredVSignEvent.html">QPEnteredVSignEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPExitedApiCoverageRegionEvent.html">QPExitedApiCoverageRegionEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPGPSUpdatesPaused.html">QPGPSUpdatesPaused</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPLocationUpdatedEvent.html">QPLocationUpdatedEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPNotifiedVSignEvent.html">QPNotifiedVSignEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPResetVSignStatus.html">QPResetVSignStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/QPVSignsFetchedEvent.html">QPVSignsFetchedEvent</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Typealiases.html#/s:14QuandoPassoLib16VSignScanResultsa">VSignScanResults</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>QPSignal</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">QPSignal</span> <span class="p">:</span> <span class="kt">JSONDecodable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Data Model class representing a vSign.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC6regionSo16CLCircularRegionCvp"></a>
+                    <a name="//apple_ref/swift/Property/region" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC6regionSo16CLCircularRegionCvp">region</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>CoreLocation circular region representing the geographic area covered by the vSign</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">region</span><span class="p">:</span> <span class="kt">CLCircularRegion</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC2idSSvp"></a>
+                    <a name="//apple_ref/swift/Property/id" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC2idSSvp">id</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>API id for the vSign</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC8bearingsSaySdGvp"></a>
+                    <a name="//apple_ref/swift/Property/bearings" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC8bearingsSaySdGvp">bearings</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>List of bearings associated the vSign</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">bearings</span><span class="p">:</span> <span class="p">[</span><span class="kt">Double</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC8messagesSayAA0D7MessageCGvp"></a>
+                    <a name="//apple_ref/swift/Property/messages" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC8messagesSayAA0D7MessageCGvp">messages</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>List of messages (TTS text)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">messages</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Classes/QPSignalMessage.html">QPSignalMessage</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC7enteredSbvp"></a>
+                    <a name="//apple_ref/swift/Property/entered" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC7enteredSbvp">entered</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stores if the vSign has been entered by the user</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">entered</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC8notifiedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/notified" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC8notifiedSbvp">notified</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Stores if the vSign has been notified to the user</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">notified</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC13lastEnteredAt10Foundation4DateVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lastEnteredAt" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC13lastEnteredAt10Foundation4DateVSgvp">lastEnteredAt</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Date object storing when the vSign has been last entered by the user.
+Nil if the user has not entered the vSign yet.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lastEnteredAt</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC14lastNotifiedAt10Foundation4DateVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/lastNotifiedAt" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC14lastNotifiedAt10Foundation4DateVSgvp">lastNotifiedAt</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Date object storing when the vSign has been last notified to the user.
+Nil if this vSign has not been notified yet.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lastNotifiedAt</span><span class="p">:</span> <span class="kt">Date</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC11mainBearingSdSgvp"></a>
+                    <a name="//apple_ref/swift/Property/mainBearing" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC11mainBearingSdSgvp">mainBearing</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the first item from the list of bearings linked to the vSign.
+Currently we use only one value per vSign, but the API supports multiple values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">mainBearing</span><span class="p">:</span> <span class="kt">Double</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC11hasBearingsSbvp"></a>
+                    <a name="//apple_ref/swift/Property/hasBearings" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC11hasBearingsSbvp">hasBearings</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Determines if the vSign has any bearing value associated to it.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">hasBearings</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC24notificationAgeInSecondsSivp"></a>
+                    <a name="//apple_ref/swift/Property/notificationAgeInSeconds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC24notificationAgeInSecondsSivp">notificationAgeInSeconds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of seconds since the vSign was last notified</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">notificationAgeInSeconds</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC19enteredAgeInSecondsSivp"></a>
+                    <a name="//apple_ref/swift/Property/enteredAgeInSeconds" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC19enteredAgeInSecondsSivp">enteredAgeInSeconds</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number of seconds since the vSign was last entered.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">enteredAgeInSeconds</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC4jsonACSgSDySSypG_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(json:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC4jsonACSgSDySSypG_tcfc">init(json:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialises a vSign from a JSON data structure.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">required</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">json</span><span class="p">:</span> <span class="kt">JSON</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC10getMessage6byLangAA0dF0CSgAA10QPLangCodeO_tF"></a>
+                    <a name="//apple_ref/swift/Method/getMessage(byLang:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC10getMessage6byLangAA0dF0CSgAA10QPLangCodeO_tF">getMessage(byLang:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a matching message - if any - for the given language code</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">getMessage</span><span class="p">(</span><span class="nv">byLang</span><span class="p">:</span> <span class="kt"><a href="../Enums/QPLangCode.html">QPLangCode</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/QPSignalMessage.html">QPSignalMessage</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC14markAsNotifiedyyF"></a>
+                    <a name="//apple_ref/swift/Method/markAsNotified()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC14markAsNotifiedyyF">markAsNotified()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Mark the vSign as notified. Called by the Engine after the logic to match vSign is run.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">markAsNotified</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC13resetNotifiedyyF"></a>
+                    <a name="//apple_ref/swift/Method/resetNotified()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC13resetNotifiedyyF">resetNotified()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resets the internal notification status for a vSign. Normally this happens when the user move
+away from the vSign coverage area or if the latest notification age is greater than the
+treshold value stored in the Settings.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetNotified</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC13markAsEnteredyyF"></a>
+                    <a name="//apple_ref/swift/Method/markAsEntered()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC13markAsEnteredyyF">markAsEntered()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Marks the vSign as entered by the user. Manily used to avoid notifying the user again once the area has been entered.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">markAsEntered</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC12resetEnteredyyF"></a>
+                    <a name="//apple_ref/swift/Method/resetEntered()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC12resetEnteredyyF">resetEntered()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resets the <code><a href="../Classes/QPSignal.html#/s:14QuandoPassoLib8QPSignalC7enteredSbvp">entered</a></code> status</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetEntered</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC11resetStatusyyF"></a>
+                    <a name="//apple_ref/swift/Method/resetStatus()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC11resetStatusyyF">resetStatus()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Resets both <code><a href="../Classes/QPSignal.html#/s:14QuandoPassoLib8QPSignalC7enteredSbvp">entered</a></code> and <code><a href="../Classes/QPSignal.html#/s:14QuandoPassoLib8QPSignalC8notifiedSbvp">notified</a></code> statuses</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">resetStatus</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC10updateFrom11otherSignalyAC_tF"></a>
+                    <a name="//apple_ref/swift/Method/updateFrom(otherSignal:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC10updateFrom11otherSignalyAC_tF">updateFrom(otherSignal:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Updates some of the current properties from another vSign instance. Used to update the vSign
+with new data from the API for the same vSign ID.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">updateFrom</span><span class="p">(</span><span class="nv">otherSignal</span><span class="p">:</span> <span class="kt">QPSignal</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC18distanceFromCenter5pointSdSo10CLLocationC_tF"></a>
+                    <a name="//apple_ref/swift/Method/distanceFromCenter(point:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC18distanceFromCenter5pointSdSo10CLLocationC_tF">distanceFromCenter(point:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calculates the distance between the given point and the center of the vSign.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">distanceFromCenter</span><span class="p">(</span><span class="nv">point</span><span class="p">:</span> <span class="kt">CLLocation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CLLocationDistance</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QuandoPassoLib8QPSignalC16distanceFromArea5pointSdSo10CLLocationC_tF"></a>
+                    <a name="//apple_ref/swift/Method/distanceFromArea(point:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QuandoPassoLib8QPSignalC16distanceFromArea5pointSdSo10CLLocationC_tF">distanceFromArea(point:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Calculates the distance between the given point and the border of the coverage area.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">distanceFromArea</span><span class="p">(</span><span class="nv">point</span><span class="p">:</span> <span class="kt">CLLocation</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CLLocationDistance</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2019 <a class="link" href="https://www.quandopasso.com" target="_blank" rel="external">Quandopasso - Connected Driving &amp; Road Management System</a>. All rights reserved. (Last updated: 2019-12-19)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.12.0</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
